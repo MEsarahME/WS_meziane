@@ -1,0 +1,6 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="200">
+  <rect width="100%" height="100%" fill="lightblue"/>
+  <image href="https://upload.wikimedia.org/wikipedia/fr/thumb/3/3c/Les_Schtroumpfs_logo.svg/1200px-Les_Schtroumpfs_logo.svg.png" x="10" y="10" height="180"/>
+  <text x="250" y="100" font-size="20" fill="black">Je schtroumpfe ce tag bizarre... &lt;div&gt; ?!</text>
+</svg>
