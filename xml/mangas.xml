@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xslt/mangas.xsl"?>
+<!DOCTYPE mangas SYSTEM "mangas.dtd">
+<mangas>
+  <manga genre="shonen" statut="en cours">
+    <titre>One Piece</titre>
+    <auteur>Eiichiro Oda</auteur>
+    <editeur>Glénat</editeur>
+    <annee>1997</annee>
+    <tome numero="102" disponible="oui"/>
+    <image src="../images/onepiece.jpg"/>
+    <resume>Monkey D. Luffy part à la recherche du trésor légendaire : le One Piece.</resume>
+  </manga>
+
+  <manga genre="seinen" statut="terminé">
+    <titre>Death Note</titre>
+    <auteur>Tsugumi Ohba et Takeshi Obata</auteur>
+    <editeur>Kana</editeur>
+    <annee>2003</annee>
+    <tome numero="12" disponible="non"/>
+    <image src="../images/deathnote.jpg"/>
+    <resume>Un lycéen découvre un cahier qui permet de tuer n'importe qui.</resume>
+  </manga>
+
+  <manga genre="shonen" statut="terminé">
+    <titre>Fullmetal Alchemist</titre>
+    <auteur>Hiromu Arakawa</auteur>
+    <editeur>Kurokawa</editeur>
+    <annee>2001</annee>
+    <tome numero="27" disponible="oui"/>
+    <image src="../images/fma.jpg"/>
+    <resume>Deux frères alchimistes cherchent la pierre philosophale pour retrouver leurs corps perdus.</resume>
+  </manga>
+  <manga genre="shoujo" statut="en cours">
+    <titre>Fruits Basket</titre>
+    <auteur>Natsuki Takaya</auteur>
+    <editeur>Delcourt</editeur>
+    <annee>1998</annee>
+    <tome numero="23" disponible="oui"/>
+    <image src="../images/fruitsbasket.jpg"/>
+    <resume>Tohru Honda découvre le secret de la famille Sohma, qui se transforme en animaux du zodiaque chinois.</resume>
+  </manga>
+
+  <manga genre="seinen" statut="terminé">
+    <titre>Berserk</titre>
+    <auteur>Kentaro Miura</auteur>
+    <editeur>Glénat</editeur>
+    <annee>1989</annee>
+    <tome numero="41" disponible="non"/>
+    <image src="../images/berserk.jpg"/>
+    <resume>L'histoire sombre et épique de Guts, un guerrier solitaire dans un monde médiéval brutal.</resume>
+  </manga>
+  <manga genre="shonen" statut="en cours">
+    <titre>My Hero Academia</titre>
+    <auteur>Kōhei Horikoshi</auteur>
+    <editeur>Ki-oon</editeur>
+    <annee>2014</annee>
+    <tome numero="36" disponible="oui"/>
+    <image src="../images/fruitsbasket.jpg"/>
+    <resume>Dans un monde où les super-pouvoirs sont normaux, Izuku Midoriya rêve de devenir un héros.</resume>
+  </manga>
+</mangas>
