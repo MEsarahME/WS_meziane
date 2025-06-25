@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<portfolio>
+  <meta>
+    <auteur>
+      <nom>SARAH MEZIANE</nom>
+      <birth>27/06/2003</birth>
+      <email>sarahmez234@gmail.com</email>
+      <tel>+33641018657</tel>
+      <linkedin>www.linkedin.com/in/meziane-sarah</linkedin>
+      <ville>Paris</ville>
+      <permis>Permis B</permis>
+    </auteur>
+    <titre>
+      <texte lang="fr">Portfolio Multilingue – Sarah Meziane</texte>
+      <texte lang="en">Multilingual Portfolio – Sarah Meziane</texte>
+      <texte lang="ar">بورتفوليو متعدد اللغات – سارة مزيان</texte>
+    </titre>
+    <jobTitle>
+      <texte lang="fr">Apprentie ingénieure DevOps Cloud</texte>
+      <texte lang="en">DevOps Cloud Apprentice Engineer</texte>
+      <texte lang="ar">مهندسة متدربة في الديفوبس والسحابة</texte>
+    </jobTitle>
+    <langues>
+      <langue code="fr" label="Français" niveau="bilingue"/>
+      <langue code="en" label="English" niveau="professionnel"/>
+      <langue code="ar" label="العربية" niveau="bilingue"/>
+    </langues>
+  </meta>
+  <presentation>
+    <texte lang="fr">Je suis étudiante à SupGalilée, passionnée par le DevOps, le Cloud et le développement logiciel. Ce portfolio synthétise mon parcours, mes compétences et projets académiques.</texte>
+    <texte lang="en">I am a student at SupGalilée, passionate about DevOps, Cloud, and software development. This portfolio summarizes my academic background, skills, and projects.</texte>
+    <texte lang="ar">أنا طالبة في SupGalilée، شغوفة بمجالات DevOps والسحابة وتطوير البرمجيات. هذا البورتفوليو يلخص مساري ومهاراتي ومشاريعي الأكاديمية.</texte>
+  </presentation>
+  <formation>
+    <titre>
+      <texte lang="fr">Formation</texte>
+      <texte lang="en">Education</texte>
+      <texte lang="ar">الدراسة</texte>
+    </titre>
+    <item>
+      <texte lang="fr">SupGalilée, Cycle ingénieur informatique (2023 – 2026), Villetaneuse, France</texte>
+      <texte lang="en">SupGalilée, Engineer Degree in Computer Science (2023 – 2026), Villetaneuse, France</texte>
+      <texte lang="ar">SupGalilée، هندسة معلوماتية (2023 – 2026)، فرنسا</texte>
+    </item>
+    <item>
+      <texte lang="fr">Université Sorbonne Paris Nord, Licence 2 Informatique (2022 – 2023)</texte>
+      <texte lang="en">University of Sorbonne Paris Nord, Bachelor's degree 2nd year - Computer Science (2022 – 2023)</texte>
+      <texte lang="ar">جامعة السوربون باريس نورد، السنة الثانية ليسانس معلوماتية (2022 – 2023)</texte>
+    </item>
+    <item>
+      <texte lang="fr">École Nationale Supérieure d’Informatique, Classes préparatoires (2020 – 2022), Alger</texte>
+      <texte lang="en">Higher National School of Computer Science, Preparatory Classes (2020 – 2022), Algiers</texte>
+      <texte lang="ar">المدرسة الوطنية العليا للمعلوماتية، الأقسام التحضيرية (2020 – 2022)، الجزائر</texte>
+    </item>
+    <item>
+      <texte lang="fr">Lycée Fethi Said, Bac S spé maths (2019 – 2020), 17.98/20, Tizi Ouzou</texte>
+      <texte lang="en">Fethi Said's High School, Baccalaureate S (Mathematics) 17.98/20 (2019 – 2020)</texte>
+      <texte lang="ar">ثانوية فتحي سعيد، بكالوريا رياضيات (2019 – 2020)، 17.98/20</texte>
+    </item>
+  </formation>
+  <competences>
+    <titre>
+      <texte lang="fr">Compétences techniques</texte>
+      <texte lang="en">Technical Skills</texte>
+      <texte lang="ar">المهارات التقنية</texte>
+    </titre>
+    <item>
+      <texte lang="fr">Systèmes : Windows, Linux (Debian)</texte>
+      <texte lang="en">OS: Windows, Linux (Debian)</texte>
+      <texte lang="ar">أنظمة التشغيل: ويندوز، لينكس (ديبيان)</texte>
+    </item>
+    <item>
+      <texte lang="fr">Programmation : C, Java, C++, Python, Shell, OCaml, Haskell, Assembleur LC3, Intel 80x86</texte>
+      <texte lang="en">Programming: C, Java, C++, Python, Shell, OCaml, Haskell, Assembly (LC3, Intel 80x86)</texte>
+      <texte lang="ar">البرمجة: C، Java، C++، Python، Shell، OCaml، Haskell، التجميع</texte>
+    </item>
+    <item>
+      <texte lang="fr">Web : HTML, CSS, JS, PHP, React, Next.js, Tailwind, API Rest</texte>
+      <texte lang="en">Web: HTML, CSS, JS, PHP, React, Next.js, Tailwind, API Rest</texte>
+      <texte lang="ar">الويب: HTML، CSS، JS، PHP، React، Next.js، Tailwind، API Rest</texte>
+    </item>
+    <item>
+      <texte lang="fr">DevOps : Docker, Kubernetes, Git, GitHub, CI/CD, Terraform, Ansible, Apache Airflow</texte>
+      <texte lang="en">DevOps: Docker, Kubernetes, Git, GitHub, CI/CD, Terraform, Ansible, Apache Airflow</texte>
+      <texte lang="ar">الديفوبس: Docker، Kubernetes، Git، GitHub، CI/CD، Terraform، Ansible، Apache Airflow</texte>
+    </item>
+    <item>
+      <texte lang="fr">Design et Data : Canva, Figma, Microsoft Office, SQL</texte>
+      <texte lang="en">Design and Data: Canva, Figma, Microsoft Office, SQL</texte>
+      <texte lang="ar">التصميم والبيانات: Canva، Figma، Microsoft Office، SQL</texte>
+    </item>
+  </competences>
+  <certificats>
+    <titre>
+      <texte lang="fr">Certificats</texte>
+      <texte lang="en">Certificates</texte>
+      <texte lang="ar">الشهادات</texte>
+    </titre>
+    <item>
+      <texte lang="fr">IBM - Introduction au DevOps</texte>
+      <texte lang="en">IBM - Introduction to DevOps</texte>
+      <texte lang="ar">IBM - مقدمة في DevOps</texte>
+      <lien>https://www.coursera.org/account/accomplishments/records/WQBY2CPBQNW2</lien>
+    </item>
+    <item>
+      <texte lang="fr">Astronomer - Fundamentals for Apache Airflow</texte>
+      <texte lang="en">Astronomer - Fundamentals for Apache Airflow</texte>
+      <texte lang="ar">Astronomer - أساسيات Apache Airflow</texte>
+      <lien>https://www.credly.com/badges/89dfb2fd-c1b3-4c33-ad30-27250bf5dac4/linked_in_profile</lien>
+    </item>
+    <item>
+      <texte lang="fr">Astronomer - DAG Authoring for Apache Airflow</texte>
+      <texte lang="en">Astronomer - DAG Authoring for Apache Airflow</texte>
+      <texte lang="ar">Astronomer - تطوير DAG لـ Apache Airflow</texte>
+      <lien>https://www.credly.com/badges/011115c8-9e9f-4480-9054-21b9ea9d5018/linked_in_profile</lien>
+    </item>
+  </certificats>
+  <experience>
+    <titre>
+      <texte lang="fr">Expérience professionnelle</texte>
+      <texte lang="en">Professional Experience</texte>
+      <texte lang="ar">الخبرة المهنية</texte>
+    </titre>
+    <item>
+      <texte lang="fr">DevOps, Cloud Developer - Société Générale (2023–2026) : Cloud, outils open source (Jira, GitHub, Jenkins, Kubernetes), Agile, CI/CD, automatisation du support.</texte>
+      <texte lang="en">DevOps, Cloud Developer - Société Générale (2023–2026): Cloud, open source tools (Jira, GitHub, Jenkins, Kubernetes), Agile, CI/CD, automation of support.</texte>
+      <texte lang="ar">مطور DevOps و Cloud - Société Générale (2023–2026): أدوات المصادر المفتوحة (Jira، GitHub، Jenkins، Kubernetes)، أجايل، CI/CD، أتمتة الدعم.</texte>
+    </item>
+    <item>
+      <texte lang="fr">Bénévolat – Cop1 (2023) : distribution alimentaire étudiants à Paris.</texte>
+      <texte lang="en">Volunteering – Cop1 (2023): student food distribution in Paris.</texte>
+      <texte lang="ar">تطوع – Cop1 (2023): توزيع الطعام للطلاب في باريس.</texte>
+    </item>
+  </experience>
+  <projets>
+    <titre>
+      <texte lang="fr">Projets académiques</texte>
+      <texte lang="en">Academic Projects</texte>
+      <texte lang="ar">المشاريع الأكاديمية</texte>
+    </titre>
+    <item>
+      <texte lang="fr">Patrick's Parabox : création d’un jeu Java/Swing (2023, Sorbonne Paris Nord)</texte>
+      <texte lang="en">Patrick's Parabox: game developed in Java/Swing (2023, Sorbonne Paris Nord)</texte>
+      <texte lang="ar">Patrick's Parabox: لعبة مطورة بجافا/سوينغ (2023)</texte>
+      <lien>https://github.com/SarahMEZIANE/Patrick</lien>
+    </item>
+    <item>
+      <texte lang="fr">Projet serveur-client C (2023, Sorbonne Paris Nord)</texte>
+      <texte lang="en">Server-client project in C (2023, Sorbonne Paris Nord)</texte>
+      <texte lang="ar">مشروع خادم-عميل بلغة C (2023)</texte>
+    </item>
+    <item>
+      <texte lang="fr">Application mobile (jeu enfants) sur Flutter/Firebase (2022, ENSI)</texte>
+      <texte lang="en">Mobile application (children's game) with Flutter/Firebase (2022, ENSI)</texte>
+      <texte lang="ar">تطبيق جوال (لعبة للأطفال) باستخدام Flutter/Firebase (2022)</texte>
+      <lien>https://github.com/SarahMEZIANE/Projet_2CP</lien>
+    </item>
+    <item>
+      <texte lang="fr">Jeu d’oie pour l’apprentissage de l’anglais (Java/JavaFX, 2022, ENSI)</texte>
+      <texte lang="en">English learning goose game (Java/JavaFX, 2022, ENSI)</texte>
+      <texte lang="ar">لعبة لتعلم الإنجليزية (Java/JavaFX, 2022)</texte>
+    </item>
+    <item>
+      <texte lang="fr">Site Cinetica : webapp React affichant les films, API Rest, connexion, design Canva (2024, SupGalilée)</texte>
+      <texte lang="en">Cinetica: React webapp for movies, API Rest, login, Canva design (2024, SupGalilée)</texte>
+      <texte lang="ar">موقع Cinetica: تطبيق ويب React للأفلام، API Rest، تسجيل دخول، تصميم Canva (2024)</texte>
+      <lien>https://github.com/SarahMEZIANE/Cinetica</lien>
+    </item>
+  </projets>
+  <hobbies>
+    <titre>
+      <texte lang="fr">Centres d’intérêt</texte>
+      <texte lang="en">Hobbies</texte>
+      <texte lang="ar">الهوايات</texte>
+    </titre>
+    <item>
+      <texte lang="fr">Technologies</texte>
+      <texte lang="en">Technology</texte>
+      <texte lang="ar">التكنولوجيا</texte>
+    </item>
+    <item>
+      <texte lang="fr">Sport</texte>
+      <texte lang="en">Sport</texte>
+      <texte lang="ar">الرياضة</texte>
+    </item>
+    <item>
+      <texte lang="fr">Musique</texte>
+      <texte lang="en">Music</texte>
+      <texte lang="ar">الموسيقى</texte>
+    </item>
+    <item>
+      <texte lang="fr">Jeux vidéo</texte>
+      <texte lang="en">Video games</texte>
+      <texte lang="ar">ألعاب الفيديو</texte>
+    </item>
+  </hobbies>
+  <derniermot>
+    <titre>
+      <texte lang="fr">Un dernier mot</texte>
+      <texte lang="en">A final word</texte>
+      <texte lang="ar">كلمة أخيرة</texte>
+    </titre>
+    <texte lang="fr">Ce portfolio reflète non seulement mes compétences, mais aussi ma personnalité et mes passions. Je crois en la force de la curiosité et de l’enthousiasme pour faire avancer les projets et grandir, aussi bien professionnellement qu’humainement. Merci d’avoir pris le temps de me découvrir !</texte>
+    <texte lang="en">This portfolio reflects not only my skills, but also my personality and passions. I believe in the power of curiosity and enthusiasm to move projects forward and grow, both professionally and personally. Thank you for taking the time to discover me!</texte>
+    <texte lang="ar">يعكس هذا البورتفوليو ليس فقط مهاراتي، بل أيضًا شخصيتي وشغفي. أؤمن بقوة الفضول والحماس لدفع المشاريع إلى الأمام والنمو مهنيًا وإنسانيًا. شكرًا لك على وقتك في اكتشاف مسيرتي!</texte>
+  </derniermot>
+</portfolio>

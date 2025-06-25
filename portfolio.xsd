@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="portfolio">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="meta" type="metaType"/>
+        <xs:element name="presentation" type="multiTextType"/>
+        <xs:element name="formation" type="sectionType"/>
+        <xs:element name="competences" type="sectionType"/>
+        <xs:element name="certificats" type="sectionType"/>
+        <xs:element name="experience" type="sectionType"/>
+        <xs:element name="projets" type="sectionType"/>
+        <xs:element name="hobbies" type="sectionType"/>
+        <xs:element name="svg" type="svgType"/>
+        <xs:element name="derniermot" type="dernierMotType"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <!-- Section meta -->
+  <xs:complexType name="metaType">
+    <xs:sequence>
+      <xs:element name="auteur" type="authorType"/>
+      <xs:element name="titre" type="multiTextType"/>
+      <xs:element name="jobTitle" type="multiTextType"/>
+      <xs:element name="langues" type="languesType"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="authorType">
+    <xs:sequence>
+      <xs:element name="nom" type="xs:string"/>
+      <xs:element name="birth" type="xs:string"/>
+      <xs:element name="email" type="xs:string"/>
+      <xs:element name="tel" type="xs:string"/>
+      <xs:element name="linkedin" type="xs:string"/>
+      <xs:element name="ville" type="xs:string"/>
+      <xs:element name="permis" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Multilingue text -->
+  <xs:complexType name="multiTextType">
+    <xs:sequence>
+      <xs:element name="texte" type="texteType" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="languesType">
+    <xs:sequence>
+      <xs:element name="langue" maxOccurs="unbounded">
+        <xs:complexType>
+          <xs:attribute name="code" type="xs:string" use="required"/>
+          <xs:attribute name="label" type="xs:string" use="required"/>
+          <xs:attribute name="niveau" type="xs:string" use="optional"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="texteType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="lang" type="xs:string" use="required"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <!-- Pour toutes les sections (formations, compétences, etc.) -->
+  <xs:complexType name="sectionType">
+    <xs:sequence>
+      <xs:element name="titre" type="multiTextType"/>
+      <xs:element name="item" minOccurs="0" maxOccurs="unbounded">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="texte" type="texteType" maxOccurs="unbounded"/>
+            <xs:element name="lien" type="xs:string" minOccurs="0"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- SVG illustration -->
+  <xs:complexType name="svgType">
+    <xs:sequence>
+      <xs:element name="file" type="xs:string"/>
+      <xs:element name="description" type="multiTextType"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Dernier mot section -->
+  <xs:complexType name="dernierMotType">
+    <xs:sequence>
+      <xs:element name="titre" type="multiTextType"/>
+      <xs:element name="texte" type="texteType" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>
